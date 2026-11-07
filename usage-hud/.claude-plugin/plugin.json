@@ -1,0 +1,1 @@
+{ "name": "usage-hud", "version": "0.1.0", "description": "HUD above the prompt: context current/total, model, and the session usage bar with reset timer", "types": "./types/index.d.ts" }

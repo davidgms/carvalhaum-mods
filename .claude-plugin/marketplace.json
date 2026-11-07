@@ -1,0 +1,7 @@
+{
+  "name": "carvalhaum-mods",
+  "owner": { "name": "david" },
+  "plugins": [
+    { "name": "usage-hud", "source": "./usage-hud", "description": "HUD above the prompt: context, model and session usage bar" }
+  ]
+}
