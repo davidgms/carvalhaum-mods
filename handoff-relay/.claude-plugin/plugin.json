@@ -1,0 +1,21 @@
+{
+  "name": "handoff-relay",
+  "version": "0.3.0",
+  "description": "After /session-handoff: copy the handoff, run /clear and send it as the first prompt of the new session",
+  "author": {
+    "name": "davidgms",
+    "url": "https://github.com/davidgms"
+  },
+  "userConfig": {
+    "send": {
+      "type": "string",
+      "title": "Send the handoff",
+      "description": "on: after /clear the handoff is sent as the first prompt of the new session. off: it is only pasted in the prompt box, for you to read and press Enter.",
+      "default": "on",
+      "options": [
+        "off",
+        "on"
+      ]
+    }
+  }
+}

@@ -1,7 +1,25 @@
 {
   "name": "carvalhaum-mods",
-  "owner": { "name": "david" },
+  "description": "Claude Code mods by davidgms: usage HUD, subagent panel and session handoff relay",
+  "owner": {
+    "name": "davidgms",
+    "url": "https://github.com/davidgms"
+  },
   "plugins": [
-    { "name": "usage-hud", "source": "./usage-hud", "description": "HUD above the prompt: context, model and session usage bar" }
+    {
+      "name": "usage-hud",
+      "source": "./usage-hud",
+      "description": "HUD above the prompt: context, model and session usage bar"
+    },
+    {
+      "name": "agents-at-work",
+      "source": "./agents-at-work",
+      "description": "Progress bar above the prompt plus a live panel of running, finished and planned subagents. Fork of savvy-progress (MIT)."
+    },
+    {
+      "name": "handoff-relay",
+      "source": "./handoff-relay",
+      "description": "After /session-handoff: copy the handoff, run /clear and send it as the first prompt of the new session"
+    }
   ]
 }
